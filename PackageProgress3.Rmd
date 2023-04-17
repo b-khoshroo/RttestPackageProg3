@@ -1,6 +1,6 @@
 ---
 title: "Package Progress 3"
-author: "Babak"
+author: "Babak M. Khoshroo"
 date: "2023-04-17"
 output: html_document
 ---
@@ -18,12 +18,12 @@ y<- rnorm(30, 3,2)
 alpha <- 0.05
 ```
 
-##creating an object by the constructor function in the package
+## Creating an object by the constructor function in the package:
 ```{r}
 obj <- RttestPackageProg3::new_Rttest(x,y,alpha=alpha)
 ```
 
-##printing the object by the print function in the package
+## Printing the object by the print function in the package:
 ```{r}
 print(obj)
 ```
