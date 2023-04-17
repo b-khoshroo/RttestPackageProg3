@@ -1,3 +1,16 @@
+#' Title
+#'
+#' @param x a vector
+#' @param y a vector
+#' @param alpha a parameter of t.test
+#' @importFrom stats t.test
+#'
+#' @return an object of Rttest class
+#' @export
+#'
+#' @examples
+#' \dontrun{obj <- new_Rttest(x,y, 0.05)}
+#'
 new_Rttest <- function(x,y,alpha)
 {
   # handeling unequal length of x and y if needed:
